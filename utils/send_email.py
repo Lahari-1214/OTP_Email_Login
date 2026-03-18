@@ -3,11 +3,11 @@ from email.message import EmailMessage
 
 def send_otp(receiver, otp):
 
-    sender = "your_email@gmail.com"
-    password = "your_app_password"  # Use an app password for Gmail
+    sender = "leelanarayan1214@gmail.com"
+    password = "app password here" #generate app password from google account and use here
 
     msg = EmailMessage()
-    msg['Subject'] = "Your OTP Code"
+    msg['Subject'] = "Your OTP Code for Login 🔐"
     msg['From'] = sender
     msg['To'] = receiver
 

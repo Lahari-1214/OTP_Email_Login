@@ -1,3 +1,3 @@
 EMAIL = "leelanarayan1214@gmail.com"
-PASSWORD = "your_app_password"  # Use an app password for Gmail
+PASSWORD = "xerv ayan wupk ktwx"
 SECRET_KEY = "leela@123"
