@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <title>{% block title %}My App{% endblock %}</title>
 </head>
 <body>
     <header>
-        <h1>{% block header %}My App{% endblock %}</h1>
+        <h1>{% block header %}Never Miss a Micro Moment{% endblock %}</h1>
     </header>
     <hr>
     <main>
@@ -18,7 +19,7 @@
       {% if messages %}
         {% for category, message in messages %}
             <div class="flash {{ category }}">{{ message }}</div>
-            
+
         {% endfor %}
       {% endif %}
     {% endwith %}
@@ -29,7 +30,11 @@
     </main>
     <hr>
     <footer>
-        <p>&copy; 2025 My App</p>
+        <p>© 2026 - All Rights Reserved, Except the Left Ones📩</p>
+        <p>Made with ❤️ by Kanthi Leela</p>
+        <p>Disclaimer: This is a demo project for learning purposes. </p>
+        <p>Do not use it in production without proper security measures.</p>
+        <p>End of Page. Time Complexity: O(1)😅</p>
     </footer>
 </body>
 </html>
