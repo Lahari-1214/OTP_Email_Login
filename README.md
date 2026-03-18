@@ -35,6 +35,7 @@ otp_email_login_flask/
 ├── utils/
 │   ├── otp_generator.py
 │   └── send_email.py
-│
-└── database/
-    └── db.py </pre>
+ </pre>
+
+ ### Output:
+  ![](assets/OTP_login.png)
