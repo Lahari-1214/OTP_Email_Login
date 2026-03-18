@@ -4,7 +4,7 @@ from email.message import EmailMessage
 def send_otp(receiver, otp):
 
     sender = "your_email@gmail.com"
-    password = "app_password"
+    password = "your_app_password"  # Use an app password for Gmail
 
     msg = EmailMessage()
     msg['Subject'] = "Your OTP Code"
